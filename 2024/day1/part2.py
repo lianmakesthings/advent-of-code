@@ -10,7 +10,6 @@ for line in lines:
 
 similarity_score = 0
 for x in first_list:
-    occ = list(filter(lambda y: y == x, second_list))
-    similarity_score += x * len(occ)
+    similarity_score += x * second_list.count(x)
 
 print(similarity_score)

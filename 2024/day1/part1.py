@@ -10,7 +10,6 @@ for line in lines:
 
 first_list.sort()
 second_list.sort()
-total_distance = 0
-for x in range(len(first_list)):
-    total_distance += abs(second_list[x] - first_list[x])
-print(total_distance)
+distances = [abs(x-y) for (x, y) in zip(first_list, second_list)]
+
+print(sum(distances))

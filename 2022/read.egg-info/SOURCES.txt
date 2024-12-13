@@ -1,0 +1,7 @@
+setup.py
+read/__init__.py
+read/read.py
+read.egg-info/PKG-INFO
+read.egg-info/SOURCES.txt
+read.egg-info/dependency_links.txt
+read.egg-info/top_level.txt
